@@ -1,0 +1,9 @@
+rootProject.name = 'micro-market'
+
+includeBuild 'api-gateway'
+includeBuild 'eadmin'
+includeBuild 'eproduct'
+includeBuild 'eserver'
+includeBuild 'euser'
+
+

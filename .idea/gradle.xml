@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
+                <projects>
+                  <project path="$PROJECT_DIR$/api-gateway" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/eadmin" name="eadmin">
+                <projects>
+                  <project path="$PROJECT_DIR$/eadmin" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/eproduct" name="eproduct">
+                <projects>
+                  <project path="$PROJECT_DIR$/eproduct" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/eserver" name="eserver">
+                <projects>
+                  <project path="$PROJECT_DIR$/eserver" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/euser" name="euser">
+                <projects>
+                  <project path="$PROJECT_DIR$/euser" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/api-gateway" />
+            <option value="$PROJECT_DIR$/eadmin" />
+            <option value="$PROJECT_DIR$/eproduct" />
+            <option value="$PROJECT_DIR$/eserver" />
+            <option value="$PROJECT_DIR$/euser" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/api-gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eadmin" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eadmin" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eproduct" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eproduct" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eserver" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eserver" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-client-security" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eureka-client-security" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/euser" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/euser" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
